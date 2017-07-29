@@ -4,7 +4,7 @@ html {
   font-size: 18px;
   color: white;
   display: block;
-  font: Helvetica;
+  font-family: Helvetica;
 }
 
 
@@ -15,15 +15,51 @@ html {
 }
 
 header {
-  display: flex;
-  max-width: 960px;
   background-color: black;
   padding: 0.66rem 0.5rem;
+  display: flex;
   margin: 0 auto;
   align-items: center;
+  max-width: 960px;
 }
 
 header img {
   padding-right: 1rem;
   height: 1.5rem;
+}
+
+
+/* New Arrival */
+
+.background_new_arrival {
+  background-image: url(../Photos/moto.jpeg);
+  height: 25rem;
+  background-size: cover;
+}
+
+.something {
+  display: flex;
+  margin: 0 auto;
+  max-width: 960px;
+  padding-top: 9rem;
+}
+
+.new_arrival {
+  background-color: black;
+  display: flex;
+  font-weight: bold;
+  flex-direction: column;
+  width: 20rem;
+  position: relative;
+  padding: 2rem 3rem;
+}
+
+.new {
+  display: block;
+  padding-bottom: 1.25rem;
+}
+
+.sport {
+  display: block;
+  font-size: 2rem;
 }
