@@ -157,3 +157,18 @@ nav {
 .info_info {
   color: black;
 }
+
+
+/* Footer */
+
+.background_footer {
+  background-color: black;
+  padding: 5rem 0;
+}
+
+footer {
+  max-width: 960px;
+  display: flex;
+  text-align: left;
+  margin: 0 auto;
+}
