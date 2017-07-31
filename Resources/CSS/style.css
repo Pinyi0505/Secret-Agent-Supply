@@ -5,6 +5,7 @@ html {
   color: white;
   display: block;
   font-family: Helvetica;
+  left: 0px;
 }
 
 
@@ -232,5 +233,16 @@ footer {
   }
   .products_example {
     width: 90%;
+  }
+  /* Info */
+  .info {
+    flex-direction: column;
+    align-items: center;
+  }
+  .info_example {
+    width: 90%;
+  }
+  .location_phone {
+    padding-bottom: 0.5rem;
   }
 }
