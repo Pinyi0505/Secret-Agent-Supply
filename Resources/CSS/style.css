@@ -245,4 +245,8 @@ footer {
   .location_phone {
     padding-bottom: 0.5rem;
   }
+  /* Footer */
+  footer {
+    justify-content: center;
+  }
 }
