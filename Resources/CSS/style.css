@@ -200,3 +200,8 @@ footer {
     width: 47%;
   }
 }
+
+
+/* Media Query: Max-Width 470px */
+
+@media only screen and (max-width: 470px) {}
