@@ -226,4 +226,11 @@ footer {
   .sport {
     font-size: 1rem;
   }
+  /* Products */
+  .hide_phone_products {
+    display: none;
+  }
+  .products_example {
+    width: 90%;
+  }
 }
