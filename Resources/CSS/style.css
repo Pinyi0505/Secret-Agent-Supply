@@ -92,7 +92,7 @@ header img {
   flex-flow: column;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  width: 960px;
+  max-width: 960px;
   margin: 0 auto;
   justify-content: space-between;
   position: relative;
@@ -140,10 +140,9 @@ header img {
 
 .info {
   display: flex;
-  justify-content: space-between;
-  width: 960px;
   margin: 0 auto;
-  position: relative;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .info_example {
@@ -154,8 +153,8 @@ header img {
 
 .info_title {
   background-color: black;
+  text-align: left;
   padding: 1rem 2rem;
-  text-align: center;
 }
 
 .info_info {
@@ -200,5 +199,4 @@ footer {
   .products_example {
     width: 47%;
   }
-  /* Info */
 }
