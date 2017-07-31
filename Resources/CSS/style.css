@@ -88,7 +88,7 @@ nav {
   flex-flow: column;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
   justify-content: space-between;
   position: relative;
@@ -112,7 +112,7 @@ nav {
 }
 
 .products_example img {
-  max-width: 8rem
+  width: 8rem
 }
 
 .width {
@@ -137,11 +137,23 @@ nav {
 .info {
   display: flex;
   justify-content: space-between;
-  max-width: 960px;
+  width: 960px;
   margin: 0 auto;
+  position: relative;
 }
 
 .info_example {
   display: flex;
+  flex-flow: column;
+  width: 35%;
+}
+
+.info_title {
   background-color: black;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+
+.info_info {
+  color: black;
 }
