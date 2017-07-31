@@ -84,12 +84,14 @@ nav {
 /* Products + Info */
 
 .products_and_info {
-  display: block;
-  max-width: 960px;
-  margin: 0 auto;
+  display: flex;
+  flex-flow: column;
   padding-top: 3rem;
   padding-bottom: 4rem;
-  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  justify-content: space-between;
+  position: relative;
 }
 
 
@@ -98,14 +100,11 @@ nav {
 .products {
   display: flex;
   padding-bottom: 3rem;
-  max-width: 960px;
   position: relative;
-  justify-content: space-between;
 }
 
 .products_example {
   display: flex;
-  border: 4px solid black;
   flex-direction: column;
   margin: 0 auto;
   justify-content: space-between;
@@ -113,18 +112,23 @@ nav {
 }
 
 .products_example img {
+  max-width: 8rem
+}
+
+.width {
   height: 9rem;
   display: flex;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid black;
+  padding: 2rem 0px;
 }
 
 .products_example span {
   display: flex;
   background-color: black;
   justify-content: center;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding: 0.5rem;
 }
 
 
