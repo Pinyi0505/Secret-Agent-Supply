@@ -80,7 +80,7 @@ header img {
   margin: 0 auto;
 }
 
-.hide_tablet {
+.hide_tablet_nav {
   display: none;
 }
 
@@ -181,7 +181,8 @@ footer {
 /* Media Query: Max-Width 1024px */
 
 @media only screen and (max-width: 1024px) {
-  .hide_tablet {
+  /* Navigation */
+  .hide_tablet_nav {
     padding: 0.75rem 0;
     max-width: 960px;
     display: flex;
@@ -192,4 +193,12 @@ footer {
   .show {
     display: none;
   }
+  /* Products */
+  .hide_tablet_products {
+    display: none;
+  }
+  .products_example {
+    width: 47%;
+  }
+  /* Info */
 }
